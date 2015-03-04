@@ -1,0 +1,8 @@
+<section class="blog-post-list">
+	<div class="blog-post-link" ng-repeat="post in postlist.post">
+		<h2>
+			<a ng-href="/posts/{{ post.id }}"><span class="fa fa-terminal"> </span>{{ post.title }} </a>
+		</h2>
+		<p>{{ post.body }}</p>
+	</div>
+</section>
